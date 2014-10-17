@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="new_printer">Asociar impresora</string>
+    <string name="print">Imprimir</string>
+    <string name="switch_on_printer">Asegúrate de que la impresora está encendida. Si no se establece la conexión, apaga la impresora y vuélvela a encender.</string>
+    <string name="connecting">Conectando con la impresora vía Bluetooth</string>
+    <string name="non_paired_printers1">No hay ninguna impresora emparejada</string>
+    <string name="non_paired_printers2">Enciende la impresora y asóciala al móvil pulsando el botón. El PIN de las impresoras Bixolon es 0000.</string>
+    <string name="printer_ready1">Impresora preparada</string>
+    <string name="printer_ready2">Pulsa imprimir para iniciar la impresión</string>
+
+</resources>

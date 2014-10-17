@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LoadingNormal">
+        <item name="android:background">@drawable/spinner_76_outer_holo_color_base</item>
+        <item name="android:layout_width">@dimen/loading</item>
+        <item name="android:layout_height">@dimen/loading</item>
+    </style>
+</resources>
