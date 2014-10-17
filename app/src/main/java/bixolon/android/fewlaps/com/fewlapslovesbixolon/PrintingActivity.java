@@ -65,7 +65,7 @@ public class PrintingActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse("https://github.com/Fewlaps/FewlapsLovesBixolon"));
+                i.setData(Uri.parse("https://github.com/rocboronat/FewlapsLovesBixolon"));
                 startActivity(i);
             }
         });
@@ -119,7 +119,7 @@ public class PrintingActivity extends Activity {
                             printTextTwoColumns("Address 2:", "08018 Barcelona (Catalonia)\n");
 
                             bixolonPrinterApi.lineFeed(2, false);
-                            bixolonPrinterApi.printQrCode("https://github.com/Fewlaps/FewlapsLovesBixolon", BixolonPrinter.ALIGNMENT_CENTER, BixolonPrinter.QR_CODE_MODEL2, 5, false);
+                            bixolonPrinterApi.printQrCode("https://github.com/rocboronat/FewlapsLovesBixolon", BixolonPrinter.ALIGNMENT_CENTER, BixolonPrinter.QR_CODE_MODEL2, 5, false);
                             printText("Scan the QR\n", BixolonPrinter.ALIGNMENT_CENTER, BixolonPrinter.TEXT_ATTRIBUTE_FONT_A);
                             printText("and get the source!", BixolonPrinter.ALIGNMENT_CENTER, BixolonPrinter.TEXT_ATTRIBUTE_FONT_C);
 
