@@ -22,24 +22,50 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/emparejarImpresora"
+                android:id="@+id/pairPrinter"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_weight="1"
                 android:drawableLeft="@drawable/ic_action_add"
-                android:text="@string/new_printer" />
+                android:text="@string/new_printer"
+                android:textSize="@dimen/textSizeMedium"
+                android:padding="@dimen/gapMedium"/>
 
             <Button
-                android:id="@+id/imprimir"
+                android:id="@+id/print"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_weight="1"
                 android:drawableRight="@drawable/ic_action_print"
-                android:text="@string/print" />
+                android:text="@string/print"
+                android:textSize="@dimen/textSizeMedium"
+                android:padding="@dimen/gapMedium"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/getSource"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/gapMedium">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_source1"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeMedium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/get_source2"
+                android:gravity="center"
+                android:textSize="@dimen/textSizeSmall" />
         </LinearLayout>
     </LinearLayout>
 
@@ -73,7 +99,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/gapSmall"
                     android:gravity="center"
-                    android:text="@string/connecting" />
+                    android:text="@string/connecting"
+                    android:textSize="@dimen/textSizeSmall"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -104,7 +131,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/gapSmall"
                     android:gravity="center"
-                    android:text="@string/non_paired_printers1" />
+                    android:text="@string/non_paired_printers1"
+                    android:textSize="@dimen/textSizeSmall"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -112,7 +140,7 @@
                     android:layout_alignParentBottom="true"
                     android:gravity="center"
                     android:text="@string/non_paired_printers2"
-                    android:textSize="@dimen/textSizeMicro" />
+                    android:textSize="@dimen/textSizeMicro"/>
             </LinearLayout>
 
             <LinearLayout
@@ -134,7 +162,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/gapSmall"
                     android:gravity="center"
-                    android:text="@string/printer_ready1" />
+                    android:text="@string/printer_ready1"
+                    android:textSize="@dimen/textSizeSmall" />
 
                 <TextView
                     android:layout_width="wrap_content"

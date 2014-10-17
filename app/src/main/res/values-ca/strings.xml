@@ -10,4 +10,6 @@
     <string name="printer_ready1">Impressora preparada</string>
     <string name="printer_ready2">Prem imprimir per a iniciar l\'impressió</string>
 
+    <string name="get_source1">Aquest projecte és Codi Lliure</string>
+    <string name="get_source2">Toca aquí i mira el codi a GitHub</string>
 </resources>

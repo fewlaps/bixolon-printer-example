@@ -10,4 +10,6 @@
     <string name="printer_ready1">Impresora preparada</string>
     <string name="printer_ready2">Pulsa imprimir para iniciar la impresión</string>
 
+    <string name="get_source1">Este proyecto es Open Source</string>
+    <string name="get_source2">Toca aquí y mira el código en GitHub</string>
 </resources>

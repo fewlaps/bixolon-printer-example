@@ -5,6 +5,7 @@ import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -60,12 +61,21 @@ public class PrintingActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_printing);
 
+        findViewById(R.id.getSource).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse("https://github.com/Fewlaps/FewlapsLovesBixolon"));
+                startActivity(i);
+            }
+        });
+
         if (rotation == null) {
             rotation = AnimationUtils.loadAnimation(this, R.anim.rotation);
         }
 
         debugTextView = (TextView) findViewById(R.id.debug);
-        printButton = (Button) findViewById(R.id.imprimir);
+        printButton = (Button) findViewById(R.id.print);
 
         layoutLoading = findViewById(R.id.layoutLoading);
         layoutThereArentPairedPrinters = findViewById(R.id.layoutNoExisteImpresora);
@@ -89,7 +99,7 @@ public class PrintingActivity extends Activity {
                     public void run() {
                         try {
                             //FIXME this example hardcodes the text values to increase a little the readability of the code. Don't do it in production! :)
-                            
+
                             bixolonPrinterApi.setSingleByteFont(BixolonPrinter.CODE_PAGE_858_EURO); //It fixes an issue printing special values like €, áéíóú...
 
                             bixolonPrinterApi.lineFeed(2, false); //It's like printing \n\n
@@ -122,7 +132,7 @@ public class PrintingActivity extends Activity {
                 t.start();
             }
         });
-        findViewById(R.id.emparejarImpresora).setOnClickListener(new OnClickListener() {
+        findViewById(R.id.pairPrinter).setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 for (String mac : pairedPrinters) {
@@ -383,7 +393,8 @@ public class PrintingActivity extends Activity {
         }
     }
 
-    /** Print the common two columns ticket style text. Label+Value.
+    /**
+     * Print the common two columns ticket style text. Label+Value.
      *
      * @param leftText
      * @param rightText
