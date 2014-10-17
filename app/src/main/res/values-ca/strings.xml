@@ -3,7 +3,7 @@
 
     <string name="new_printer">Associar impressora</string>
     <string name="print">Imprimir</string>
-    <string name="switch_on_printer">Assegura\'t de que l'impresora està encesa. Si no s\'estableix la comunicació, apaga l'impressora i torna-la a encendre.</string>
+    <string name="switch_on_printer">Assegura\'t de que l\'impresora està encesa. Si no s\'estableix la comunicació, apaga l\'impressora i torna-la a encendre.</string>
     <string name="connecting">Connectant amb l\'impressora via Bluetooth</string>
     <string name="non_paired_printers1">No hi ha cap impressora emparellada</string>
     <string name="non_paired_printers2">Encèn l\'impressora i assòcia-la amb el mòbil prement el botó. El PIN de les impressores Bixolon és 0000.</string>
