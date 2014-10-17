@@ -3,14 +3,14 @@
 
     <string name="app_name">Fewlaps loves Bixolon</string>
 
-    <string name="new_printer">Pair printer</string>
+    <string name="new_printer">Link printer</string>
     <string name="print">Print</string>
-    <string name="switch_on_printer">Is the printer on? If the phone can\'t connect to the printer, switch the printer off and turn it on again.</string>
-    <string name="connecting">Connecting with the printer via Bluetooth</string>
-    <string name="non_paired_printers1">There aren\'t any paired printer</string>
-    <string name="non_paired_printers2">Turn on the printer, and pair it to your phone. The PIN of the Bixolon printers is 0000.</string>
+    <string name="switch_on_printer">Make sure that the printer is on. If a connection cannot be established, please switch the printer off and turn it on again.</string>
+    <string name="connecting">Connecting to the printer through Bluetooth</string>
+    <string name="non_paired_printers1">There are no paired printers</string>
+    <string name="non_paired_printers2">Please turn on the printer and link it to your phone by tapping the button. The PIN of the Bixolon printers is 0000.</string>
     <string name="printer_ready1">Printer ready</string>
-    <string name="printer_ready2">Tap the print button to start printing</string>
+    <string name="printer_ready2">Tap the "Print" button to start printing</string>
 
     <string name="get_source1">This is an Open Source project</string>
     <string name="get_source2">Tap here and get the code at GitHub</string>
