@@ -1,6 +1,4 @@
 <h1>Fewlaps loves Bixolon</h1>
-<h2>printing things with your Android</h2>
-===================
 
 The Bixolon SDK includes a sample project to showcase what's the Bixolon printer capable of. It also showcase that Bixolon's engineer are great writing low-level code, but they can't spend the time to fulfill the reality on the Android world: things must be simple.
 
