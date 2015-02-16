@@ -8,6 +8,6 @@ In the way to integrate the Bixolon SDK to our projects, we created an automated
 
 Well, and here's and small video to explain the idea with some frames put one each another:
 
-[![Fewlaps loves Bixolon](http://img.youtube.com/vi/V4q1c5oexzM/0.jpg)](http://www.youtube.com/watch?v=V4q1c5oexzM)
+[![Fewlaps loves Bixolon](http://fewlaps.com/xtra/bixolon-youtube.png)](http://www.youtube.com/watch?v=V4q1c5oexzM)
 
 You'll also find some fancy lines in the project to print data in two columns, an image, a QR... and some tricks that you should know if printing with one of this (lovely) printers.
